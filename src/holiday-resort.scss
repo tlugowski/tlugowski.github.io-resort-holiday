@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  padding: 2rem;
+  width: 100%;
+  overflow: hidden;
+  background-image: linear-gradient(45deg, var(--cyan), var(--purple));
+  background: linear-gradient(45deg, var(--cyan), var(--purple));
+  background-color: var(--cyan);
+  overflow: auto;
+  background-attachment: fixed;
+}
+
+div,
+label,
+input,
+button {
+  font-family: var(--roboto);
+  color: var(--black);
+}
+
+:root {
+  --cyan: #00bcd4;
+  --purple: #ab47bc;
+  --black: #212121;
+  --grey: #616161;
+  --white: #ffffff;
+  --roboto: "Roboto", sans-serif;
+  --orange: orangered;
+  --green: green;
+  --silver: silver;
+  --beige: beige;
+  --red: red;
+  --blue: blue;
+  --darkblue: darkblue;
+  --black-shadow-first: rgba(0, 0, 0, 0.034);
+  --black-shadow-second: rgba(0, 0, 0, 0.75);
+  --half-grey: #e1dfeb;
+  --transparent: transparent;
+  --darkred: darkred;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.text-muted {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: auto;
+  padding-top: 10%;
+}

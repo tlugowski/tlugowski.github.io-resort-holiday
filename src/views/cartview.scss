@@ -1,0 +1,35 @@
+.buttons-container {
+  font-size: 12px;
+}
+
+.add-btn {
+  border: none;
+}
+
+.substract-btn {
+  border: none;
+}
+
+.date-container input {
+  border: none;
+}
+
+.date-container input:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--grey);
+}
+
+button.set-date {
+  border: none;
+  color: var(--green);
+}
+
+.set-date[disabled] {
+  border: none;
+  color: var(--silver);
+}
+
+.tr-element {
+  background-color: var(--beige);
+}

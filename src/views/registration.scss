@@ -1,0 +1,105 @@
+#formRegistration {
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  border: 5px solid var(--cyan);
+  margin-top: 150px;
+}
+
+.registration-header {
+  display: flex;
+  align-items: flex-start;
+  color: var(--cyan);
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.credentials-error-message {
+  padding-top: 20px;
+  display: none;
+  color: var(--red);
+}
+
+.btn-registration {
+  padding-bottom: 20px;
+  border-style: none;
+  background-color: var(--transparent);
+}
+
+.btn-registration:hover {
+  padding-bottom: 20px;
+  border-style: none;
+  color: var(--silver);
+  background-color: var(--transparent);
+}
+
+.container-form-input-reg {
+  margin: 0 0 30px;
+  flex-basis: 45%;
+  width: 100%;
+}
+
+.container-form-input-reg label {
+  color: var(--white);
+}
+
+.container-form-input-reg input {
+  width: 100%;
+  border: 0;
+  padding: 8px 5px;
+  margin: 5px 0;
+}
+
+button[class="js-form-btn-reg"] {
+  display: block;
+  max-width: 250px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  flex: 1 0 auto;
+  background-color: var(--cyan);
+  color: var(--white);
+  cursor: pointer;
+  -webkit-transition: -webkit-filter 0.2s ease-in;
+  transition: filter 500ms ease-in;
+  box-shadow: 0 2.8px 2.2px var(--black-shadow-first);
+}
+
+button[class="js-form-btn-reg"]:hover {
+  filter: grayscale(20%);
+}
+
+.credentials-error-message {
+  display: none;
+}
+
+.user-exist-error-message {
+  padding-top: 20px;
+  display: block;
+  color: var(--red);
+}
+
+.different-password-error-message {
+  display: none;
+}
+
+.credentials-error-message.enabled {
+  display: block;
+}
+
+.user-exist-error-message.enabled {
+  display: block;
+}
+
+.different-password-error-message.enabled {
+  padding-top: 20px;
+  display: block;
+  color: var(--red);
+}

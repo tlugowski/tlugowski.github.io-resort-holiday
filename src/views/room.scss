@@ -1,0 +1,27 @@
+.see-more-button {
+  background-color: var(--transparent);
+  color: var(--blue);
+  border: none;
+}
+
+.see-more-button:hover {
+  filter: brightness(50%);
+}
+
+.room-img {
+  max-width: 100%;
+  width: 1200px;
+  padding-bottom: 125px;
+}
+
+.ul-room-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rooms-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

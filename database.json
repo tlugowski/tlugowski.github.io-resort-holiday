@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "sample@wp.pl",
+      "password": "admin123"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "img": "https://images.pexels.com/photos/8082304/pexels-photo-8082304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "type": "room",
+      "name": "Party Room",
+      "beds": 0,
+      "guests": 50,
+      "price": 400,
+      "description": "In the Party Room you are perfectly spending your time! Invite your friends, organize a wedding, communion, bachelor party or integration event. The room is very large, with several tables and matching chairs just right for a get-together with a large group of friends. The room has a good sound system. 10 speakers will make you feel like at a real concert. The hall also has a set of lights and stroboscopes."
+    },
+    {
+      "id": 2,
+      "type": "room",
+      "img": "https://images.pexels.com/photos/8761640/pexels-photo-8761640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "name": "Education room",
+      "beds": 0,
+      "guests": 25,
+      "price": 350,
+      "description": "The education room is an ideal place for conferences, business meetings. It has 2 projectors, screen, audio system and perfect lighting and air conditioning. The room is very large and has chairs with the possibility of attaching tables. There are many network sockets in the room and Wifi is provided. The windows have specially dimmed blinds."
+    },
+    {
+      "id": 3,
+      "type": "room",
+      "img": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "name": "Guest rooms",
+      "beds": 2,
+      "guests": 50,
+      "price": 75,
+      "description": "Guest rooms are a place where you can relax. We have different versions with one double bed or two separate beds. The rooms are very nice and tidy. Each has a fridge, kettle and TV. Automatic air-conditioner and electric shutters."
+    },
+    {
+      "id": 4,
+      "type": "room",
+      "img": "https://images.pexels.com/photos/10035858/pexels-photo-10035858.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "name": "Relax Room",
+      "beds": 1,
+      "guests": 4,
+      "price": 50,
+      "description": "In the relaxation room - you can escape from the hustle and bustle of the surrounding reality, learn the laws of nature, de-stress, relax. There are mats for meditation and essential oils "
+    },
+    {
+      "id": 5,
+      "type": "room",
+      "img": "https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "name": "Pool relax room",
+      "beds": 0,
+      "guests": 20,
+      "price": 70,
+      "description": "Relax in the pool while taking in the beauty of nature. By the pool there are sun loungers at guests' disposal, as well as tables and parasols. "
+    }
+  ],
+  "attractions": [
+    {
+      "id": 1,
+      "img": "https://images.pexels.com/photos/7648298/pexels-photo-7648298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "type": "attraction",
+      "name": "Squash",
+      "area": "55m2",
+      "time": 60,
+      "price": 50
+    },
+    {
+      "id": 2,
+      "img": "https://images.pexels.com/photos/2961946/pexels-photo-2961946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "type": "attraction",
+      "name": "Tennis",
+      "area": "184m2",
+      "time": 60,
+      "price": 60
+    },
+    {
+      "id": 3,
+      "type": "attraction",
+      "img": "https://images.pexels.com/photos/2891884/pexels-photo-2891884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "name": "Basket ball",
+      "area": "420m2",
+      "time": 60,
+      "price": 40
+    },
+    {
+      "id": 4,
+      "type": "attraction",
+      "img": "https://media.istockphoto.com/photos/pool-picture-id179498524?k=20&m=179498524&s=612x612&w=0&h=pSvXM8VWmonlHVouURXHev-RklO8FVdH0opzwaXJX90=",
+      "name": "Biliard",
+      "area": "50m2",
+      "time": 60,
+      "price": 50
+    },
+    {
+      "id": 5,
+      "type": "attraction",
+      "img": "https://images.pexels.com/photos/6620420/pexels-photo-6620420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "name": "Archery",
+      "area": "100m2",
+      "time": 30,
+      "price": 30
+    },
+    {
+      "id": 6,
+      "type": "attraction",
+      "img": "https://media.istockphoto.com/photos/lady-hatchet-thrower-picture-id178163925?k=20&m=178163925&s=612x612&w=0&h=l-FlexCCShYMz2lKFgbZTnvcYPeuXInHjJev8hbX3Ac=",
+      "name": "Axe throwing",
+      "area": "120m2",
+      "time": 60,
+      "price": 75
+    },
+    {
+      "id": 7,
+      "type": "attraction",
+      "img": "https://images.pexels.com/photos/1276134/pexels-photo-1276134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "name": "Table football",
+      "area": "50m2",
+      "time": 0,
+      "price": 0
+    }
+  ]
+}
